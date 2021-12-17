@@ -1,0 +1,14 @@
+@import '../../styles/styles.scss';
+
+.app {
+  min-height: 100vh;
+  background-color: #202020;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  margin: 0 auto;
+}

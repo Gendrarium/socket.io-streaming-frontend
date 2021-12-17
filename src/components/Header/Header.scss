@@ -1,0 +1,29 @@
+@import '../../styles/styles.scss';
+
+.header {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: $header-min-height;
+  box-sizing: border-box;
+
+  &__title {
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    @include fontSize(32px, 34px);
+
+    @include mq(1279) {
+      @include fontSize(28px, 30px);
+    }
+
+    @include mq(767) {
+      @include fontSize(26px, 28px);
+    }
+
+    @include mq(479) {
+      @include fontSize(24px, 26px);
+    }
+  }
+}
